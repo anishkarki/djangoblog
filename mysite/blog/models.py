@@ -5,3 +5,4 @@ class Post(models.Model):
     text=models.CharField(max_length=1000)
     pub_date=models.DateTimeField('date published')
     comment=models.CharField(max_length=1000)
+    name=models.CharField(max_length=20)
